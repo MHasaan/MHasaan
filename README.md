@@ -1,6 +1,6 @@
 <a href="https://mhasaan.vercel.app/"><img src="assets/header.svg" width="100%" alt="Muhammad Hasaan — ML and automation engineer. I build models that make decisions."></a>
 
-Credit risk, fraud, seizure detection. I take a problem from raw data to a model you can question, then put it somewhere people can use it. Final-year BS Computer Science; IBM Machine Learning Professional Certificate.
+Credit risk, fraud, seizure detection. I take a problem from raw data to a model you can question, then put it somewhere people can use it. BS Computer Science graduate (2026); IBM Machine Learning Professional Certificate.
 
 [Portfolio](https://mhasaan.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/muhammad-hasaan-naeem/) · [muhammadhasaan139@gmail.com](mailto:muhammadhasaan139@gmail.com)
 
