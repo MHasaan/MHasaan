@@ -1,90 +1,32 @@
-<!--
-**MHasaan/MHasaan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+<a href="https://mhasaan.vercel.app/"><img src="assets/header.svg" width="100%" alt="Muhammad Hasaan — ML and automation engineer. I build models that make decisions."></a>
 
-<h1 align="center">Hi 👋, I'm Muhammad Hasaan</h1>
-<h3 align="center">Aspiring ML & AI Engineer | Computer Science Student</h3>
+Credit risk, fraud, seizure detection. I take a problem from raw data to a model you can question, then put it somewhere people can use it. Final-year BS Computer Science; IBM Machine Learning Professional Certificate.
 
-<p align="center">
-  <a href="https://mhasaan.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-mhasaan.vercel.app-blue?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://www.linkedin.com/in/muhammad-hasaan-124397250" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:muhammadhasaan139@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+[Portfolio](https://mhasaan.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/muhammad-hasaan-naeem/) · [muhammadhasaan139@gmail.com](mailto:muhammadhasaan139@gmail.com)
+
+### Live demos
+
+Each one runs in the browser, and each is built as its own app.
+
+<p>
+  <a href="https://mhasaan.vercel.app/projects/loan-default"><img src="assets/work-underwrite.svg" width="49%" alt="Underwrite — loan default model"></a>
+  <a href="https://mhasaan.vercel.app/projects/transaction-fraud"><img src="assets/work-sentinel.svg" width="49%" alt="Sentinel — transaction fraud console"></a>
+  <a href="https://mhasaan.vercel.app/projects/game"><img src="assets/work-negamax.svg" width="49%" alt="Negamax — tic-tac-toe with minimax"></a>
+  <a href="https://mhasaan.vercel.app/projects/3d-portfolio"><img src="assets/work-orbit.svg" width="49%" alt="Orbit — 3D project space"></a>
 </p>
 
----
+Also on the site: [Nimbus](https://mhasaan.vercel.app/projects/weather) (weather), [Punchlist](https://mhasaan.vercel.app/projects/todo) (tasks), [Tally](https://mhasaan.vercel.app/projects/calculator) (calculator).
 
-I'm a Computer Science student passionate about building intelligent systems and exploring the cutting edge of **Machine Learning** and **AI**.
+### Other work
 
-- 🔭 Currently working on **Seizure Detection using Pose Estimation** and **Malware Detection in Parallel & Distributed Systems**
-- 🌱 Diving into **Transformer architectures**, **Reinforcement Learning**, and **Distributed ML**
-- 🌐 Check out my portfolio: **[mhasaan.vercel.app](https://mhasaan.vercel.app/)**
-- 📫 Reach me at **muhammadhasaan139@gmail.com**
+- **[webotMCP](https://github.com/MHasaan/webotMCP)** — MCP server for the Webots robot simulator: control robots, edit scenes, read sensors and cameras from an AI assistant.
+- **[kpi-nexus-final](https://github.com/MHasaan/kpi-nexus-final)** — multi-tenant KPI SaaS. NestJS, Next.js, Prisma, TimescaleDB, pgvector, BullMQ and a Python ML sidecar.
+- **Seizure detection** — pose estimation that watches for seizure-like movement and alerts carers. OpenCV, MediaPipe, TensorFlow.
+- **Malware detection** — parallel scanning and classification of malware signatures with Python multiprocessing.
+- **[PDF_Scrapper](https://github.com/MHasaan/PDF_Scrapper)** — receipt PDFs to clean CSV.
 
----
+### Tools
 
-## 🔭 Projects
-
-| Project | Description |
-|---------|-------------|
-| **Seizure Detection using Pose Estimation** | Real-time system to monitor elders and detect seizure movements using OpenCV, MediaPipe & TensorFlow |
-| **Malware Detection in Parallel & Distributed Systems** | File/folder scanner that analyzes code patterns to flag potential malware, leveraging Python multiprocessing and distributed tasks |
-| **Reinforcement Learning in Robotics** | Coming soon — simulation-based RL for robotic control |
-
----
-
-## 💻 Skills & Tools
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart_(learning)-0175C2?style=flat-square&logo=dart&logoColor=white)
-
-**Frameworks & Libraries**
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-4285F4?style=flat-square&logo=google&logoColor=white)
-
-**Platforms & Tools**
-
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
----
-
-## 🚀 Goals
-
-- Contribute to open-source ML frameworks
-- Publish research in ML/AI
-- Build production-grade intelligent systems
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MHasaan&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MHasaan&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MHasaan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
----
-
-<p align="center">
-  <i>"The best way to predict the future is to invent it." – Alan Kay</i>
-</p>
+**Modelling** Python, SQL, PySpark, DuckDB, XGBoost, scikit-learn, PyTorch, TensorFlow, SHAP  
+**Serving** FastAPI, Django, Docker, n8n  
+**Web** TypeScript, React, Next.js, three.js
