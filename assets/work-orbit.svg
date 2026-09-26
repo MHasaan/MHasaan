@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="150" viewBox="0 0 460 150" role="img" aria-label="Orbit: Every project as a block on a blueprint; height is the number of tools it uses.">
+  <style>
+    :root { --bg:#F2F3F0; --ink:#141A17; --muted:#5E6862; --signal:#2C4BFF; --line:rgba(20,26,23,.16); }
+    .dk { display: none; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#161C19; --ink:#E6EAE6; --muted:#8D9892; --signal:#7B8CFF; --line:rgba(230,234,230,.16); }
+      .lt { display: none; } .dk { display: inline; }
+    }
+    .kind { font: 500 11px ui-monospace, Consolas, monospace; letter-spacing: 1.4px; fill: var(--muted); }
+    .name { font: 700 26px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: var(--ink); letter-spacing: -.4px; }
+    .claim { font: 400 13.5px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: var(--ink); fill-opacity: .82; }
+    .stack { font: 500 11.5px ui-monospace, Consolas, monospace; fill: var(--signal); }
+  </style>
+  <rect x=".5" y=".5" width="459" height="149" rx="10" fill="var(--bg)" stroke="var(--line)"/>
+  <text class="kind" x="22" y="32">3D PROJECT SPACE</text>
+  <text class="name" x="20" y="64">Orbit</text>
+  <text class="claim" x="22" y="92">Every project as a block on a blueprint;</text>
+  <text class="claim" x="22" y="110">height is the number of tools it uses.</text>
+  <text class="stack" x="22" y="134">React · three.js · React Three Fiber  →</text>
+  <g class="lt"><g transform="translate(336 22)"><rect width="92" height="66" rx="4" fill="#0E3A6E"/>
+    <path d="M10 56H82" stroke="#5D86B8"/>
+    <rect x="16" y="30" width="16" height="26" fill="#2f74c8" fill-opacity=".6" stroke="#E6F0FF"/>
+    <rect x="40" y="16" width="16" height="40" fill="#FFD166" fill-opacity=".4" stroke="#FFD166"/>
+    <rect x="64" y="38" width="16" height="18" fill="none" stroke="#E6F0FF"/>
+    <path d="M60 16V56M58 16H62M58 56H62" stroke="#FFD166"/></g></g><g class="dk"><g transform="translate(336 22)"><rect width="92" height="66" rx="4" fill="#0E3A6E"/>
+    <path d="M10 56H82" stroke="#5D86B8"/>
+    <rect x="16" y="30" width="16" height="26" fill="#2f74c8" fill-opacity=".6" stroke="#E6F0FF"/>
+    <rect x="40" y="16" width="16" height="40" fill="#FFD166" fill-opacity=".4" stroke="#FFD166"/>
+    <rect x="64" y="38" width="16" height="18" fill="none" stroke="#E6F0FF"/>
+    <path d="M60 16V56M58 16H62M58 56H62" stroke="#FFD166"/></g></g>
+</svg>

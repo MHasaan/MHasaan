@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="150" viewBox="0 0 460 150" role="img" aria-label="Sentinel: 6.4M mobile-money transactions, cost-based thresholds and drift monitoring.">
+  <style>
+    :root { --bg:#F2F3F0; --ink:#141A17; --muted:#5E6862; --signal:#2C4BFF; --line:rgba(20,26,23,.16); }
+    .dk { display: none; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#161C19; --ink:#E6EAE6; --muted:#8D9892; --signal:#7B8CFF; --line:rgba(230,234,230,.16); }
+      .lt { display: none; } .dk { display: inline; }
+    }
+    .kind { font: 500 11px ui-monospace, Consolas, monospace; letter-spacing: 1.4px; fill: var(--muted); }
+    .name { font: 700 26px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: var(--ink); letter-spacing: -.4px; }
+    .claim { font: 400 13.5px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: var(--ink); fill-opacity: .82; }
+    .stack { font: 500 11.5px ui-monospace, Consolas, monospace; fill: var(--signal); }
+  </style>
+  <rect x=".5" y=".5" width="459" height="149" rx="10" fill="var(--bg)" stroke="var(--line)"/>
+  <text class="kind" x="22" y="32">TRANSACTION FRAUD</text>
+  <text class="name" x="20" y="64">Sentinel</text>
+  <text class="claim" x="22" y="92">6.4M mobile-money transactions, cost-based</text>
+  <text class="claim" x="22" y="110">thresholds and drift monitoring.</text>
+  <text class="stack" x="22" y="134">PySpark · XGBoost · FastAPI · Docker  →</text>
+  <g class="lt"><g transform="translate(340 30)"><rect x="-10" y="-10" width="100" height="62" rx="6" fill="#0B0F14"/><rect x="0" y="0" width="40" height="6" rx="1" fill="#3FD0E0" opacity="0.8"/><rect x="0" y="11" width="57" height="6" rx="1" fill="#3FD0E0" opacity="0.8"/><rect x="0" y="22" width="70" height="6" rx="1" fill="#FF4D5E" opacity="1"/><rect x="0" y="33" width="61" height="6" rx="1" fill="#3FD0E0" opacity="0.8"/></g></g><g class="dk"><g transform="translate(340 30)"><rect x="-10" y="-10" width="100" height="62" rx="6" fill="#0B0F14"/><rect x="0" y="0" width="40" height="6" rx="1" fill="#3FD0E0" opacity="0.8"/><rect x="0" y="11" width="57" height="6" rx="1" fill="#3FD0E0" opacity="0.8"/><rect x="0" y="22" width="70" height="6" rx="1" fill="#FF4D5E" opacity="1"/><rect x="0" y="33" width="61" height="6" rx="1" fill="#3FD0E0" opacity="0.8"/></g></g>
+</svg>

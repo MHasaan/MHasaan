@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+  <title id="t">Muhammad Hasaan</title>
+  <desc id="d">ML and automation engineer. I build models that make decisions. A score readout shows p(default) 0.27.</desc>
+  <style>
+    :root { --bg:#E4E7E3; --surface:#F2F3F0; --ink:#141A17; --muted:#5E6862; --signal:#2C4BFF; --flag:#E39B00; --flagink:#8A5A00; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0F1412; --surface:#161C19; --ink:#E6EAE6; --muted:#8D9892; --signal:#7B8CFF; --flag:#FFB938; --flagink:#FFB938; }
+    }
+    .bg { fill: var(--bg); }
+    .panel { fill: var(--surface); stroke: var(--ink); stroke-opacity: .18; }
+    .name { font: 700 64px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: var(--ink); letter-spacing: -1.5px; }
+    .role { font: 400 22px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: var(--muted); }
+    .mono { font: 500 13px ui-monospace, 'SFMono-Regular', Consolas, monospace; fill: var(--muted); letter-spacing: 1.2px; }
+    .val { font: 600 40px ui-monospace, 'SFMono-Regular', Consolas, monospace; fill: var(--signal); }
+    .tick { stroke: var(--ink); stroke-opacity: .35; }
+    .track { fill: var(--ink); fill-opacity: .08; }
+    .bar { fill: var(--signal); transform-origin: 0 0; animation: sweep 2.4s cubic-bezier(.2,.8,.2,1) both; }
+    .flag { fill: var(--flag); }
+    .flagt { font: 600 12px ui-monospace, Consolas, monospace; fill: var(--flagink); letter-spacing: 1px; }
+    .rule { stroke: var(--ink); stroke-opacity: .25; }
+    @keyframes sweep { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @media (prefers-reduced-motion: reduce) { .bar { animation: none; } }
+  </style>
+
+  <rect class="bg" width="1200" height="300" rx="14"/>
+
+  <!-- identity -->
+  <text class="mono" x="56" y="84">ML &amp; AUTOMATION ENGINEER · PAKISTAN · PKT</text>
+  <text class="name" x="52" y="160">Muhammad Hasaan</text>
+  <text class="role" x="56" y="202">I build models that make decisions.</text>
+  <line class="rule" x1="56" y1="236" x2="600" y2="236"/>
+  <text class="mono" x="56" y="262">mhasaan.vercel.app</text>
+
+  <!-- instrument readout -->
+  <g transform="translate(730 58)">
+    <rect class="panel" width="414" height="184" rx="10"/>
+    <text class="mono" x="24" y="36">LIVE SCORE · UNDERWRITE</text>
+    <text class="val" x="24" y="90">0.27</text>
+    <text class="mono" x="118" y="88">p(default)</text>
+    <g transform="translate(24 116)">
+      <rect class="track" width="366" height="14" rx="2"/>
+      <g transform="translate(0 0)"><rect class="bar" width="99" height="14" rx="2"/></g>
+      <!-- scale ticks -->
+      <g class="tick">
+        <line x1="0" y1="22" x2="0" y2="30"/><line x1="91.5" y1="22" x2="91.5" y2="27"/>
+        <line x1="183" y1="22" x2="183" y2="30"/><line x1="274.5" y1="22" x2="274.5" y2="27"/>
+        <line x1="366" y1="22" x2="366" y2="30"/>
+      </g>
+      <!-- the flagged threshold -->
+      <rect class="flag" x="127" y="-6" width="3" height="26"/>
+      <text class="flagt" x="136" y="46">REFER ≥ 0.35</text>
+      <text class="mono" x="0" y="46">0</text>
+      <text class="mono" x="352" y="46">1</text>
+    </g>
+  </g>
+</svg>
